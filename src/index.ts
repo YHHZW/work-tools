@@ -1,5 +1,7 @@
-import { bindModel } from './decorator/ControllerDecorator'
+import { authorityIntercept } from './decorator/ControllerDecorator'
+import { bindModel } from './decorator/ServiceDecorator'
 
 export {
-    bindModel
+    bindModel,
+    authorityIntercept
 }
